@@ -13,12 +13,41 @@
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<!-- Custom Styles For Our Presentation -->
+	<style>
+	.left {
+		text-align: left;
+	}
+
+	.size {
+		font-size: 70px;
+	}
+	.reveal h1 { font-size: 1.85em; }
+	.reveal ul { font-size: 0.9em; }
+
+	</style>
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-markdown="Lesson1-Secrets/readme.md"></section>
+			<section
+				data-markdown="Lesson0-Overview/start.md"
+				data-separator="^\r?\n\r?\n\r?\n"
+				data-separator-vertical="^\n\---vertical---\n\n"
+				data-separator-notes="^Note:"
+				data-charset="iso-8859-15">
+			></section>
+
+
+			<section
+				data-markdown="Lesson1-Secrets/readme.md"
+				data-separator="^\r?\n\r?\n\r?\n"
+				data-separator-vertical="^\n\---vertical---\n\n"
+				data-separator-notes="^Note:"
+				data-charset="iso-8859-15">
+			></section>
 			<section>Slide 1</section>
 			<section>Slide 2</section>
 
@@ -40,7 +69,7 @@
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
-
+			showNotes: true,
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
