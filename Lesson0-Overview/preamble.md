@@ -6,7 +6,6 @@
 * Been lot of Learning from various past approaches
 * Objective: best practices / guidance for scheduled jobs
 
-
 Note: The need for IIT's clients to be able to schedule jobs has existed for many
 years.  Various approaches have been taken over the last decade that attempt to
 fill this need.  The most recent iteration has been the creation of the **Jenkins
@@ -18,9 +17,7 @@ our ability to maintain and scale the service.
 This course is intended to provide guidance to users of this service around how
 scheduled jobs should be created and deployed.
 
-
 ---vertical---
-
 
 # Implementation
 
