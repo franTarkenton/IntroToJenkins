@@ -1,5 +1,5 @@
 {
     "editor.rulers": [80,120],
     "files.eol": "\n",
-    "python.defaultInterpreterPath": "/home/linuxbrew/.linuxbrew/bin/python3"
+    "python.defaultInterpreterPath": "/home/kjnether/proj/jenkinsTraining_newrepo/venv/bin/python3"
 }

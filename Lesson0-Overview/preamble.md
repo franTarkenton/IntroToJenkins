@@ -45,12 +45,12 @@ scheduled jobs should be created and deployed.
 
 * Scott / Harry - needs to keep servers running
 * Data Analysts / GIS Analysts / Other - want jobs running on a schedule
-* All:
+* Common Interest / what we all want:
     * Reliability
     * Maintainability
     * Recoverability from Failure
 
-notes: We want to be able to add / remove / replace servers that are
+note: We want to be able to add / remove / replace servers that are
 attached to the jenkins service without requiring notification.  When
 this happens we want users of scheduled jobs to be unaffected by these
 changes.
@@ -58,38 +58,48 @@ changes.
 ---vertical---
 
 
-### How do we get there?
+## How do we get there?
 
+This training will hopefully be a start!
+
+* Don't embed secrets in your code
+* Maintain code in Source Code Repository
 * Define a build step in your deployment
 * Install non standard S/W in your build.
-* Maintain code in Source Code Repository
-* Don't embed secrets in your code
 * Log messages to STDOUT
 * Use Jenkins Pipeline format vs freestyle projects
-* follow along ...
 
 ---vertical---
 
-### But we arn't programmers?
+## But we aren't programmers!!??
 
 <img src="https://steenschledermann.files.wordpress.com/2014/05/no-thanks-were-too-busy1.jpg" width="400px">
 <br>
 
-* Recognized!
+* Things are already too complex
+* I'm busy, don't have time for this nonsense!
+* There has to be an easier way.
 
 
 Note: If you write code, I consider you a programmer.  We are all at
 different levels.  If we approach problems together I believe we can
-learn and evolve at much faster rate.  Recognize that we are all
-overloaded with work and adding a new way of doing things is a pain
-and costs time.  I sincerely believe that techniques and approaches
-taken in the course will save you time in the long run.
+learn and evolve at much faster rate.
+
+Recognize that we are all overloaded with work and adding a new way of doing
+things is a pain and costs time.
+
+Every approach has a trade off!  The ideas / concepts behind this training come
+from a long history of experience, where shortcuts have been taken... caused
+a lot of pain... and lessons have been learn't.
+
+Ideas are loosly pulled from the 12 factor app: https://12factor.net/
+
+Its a foundation that can be built on.
 
 ---vertical---
 
 ### Approach
 
-* This course is going to use python for its demos.
+* This course will use python for its demos.
 * Concepts covered using python should be transferable to other languages
 * Editor of choice for course is vscode
-
