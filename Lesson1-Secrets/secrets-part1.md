@@ -1,4 +1,4 @@
-## Secrets
+## Lesson 1: Secrets
 
 <img src="https://i5.walmartimages.com/asr/b1d6a172-de39-4cd5-be1f-2614c5d64fdf_1.a6ba6c721e7618a6378fbb547752a5b2.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff" width="300px">
 

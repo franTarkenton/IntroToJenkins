@@ -1,4 +1,10 @@
-# Best Practices for Scheduled Jobs
+# Preamble
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLUaMIaTUTjEd5hg1Dw0wkqQzNa2dlqyrk6IK5eamotIne_71Ye13MA-sHVjDlFm6rY7Gt37KN5dEn76xLyVmYvm5877_hZeUffFryClWZUcitH6uBdGiz5FCS37p2oXQh9clQVApD0GBYKHhvwefoZxoQ=w1168-h569-no?authuser=0" width="600px">
+
+---vertical---
+
+## Best Practices for Scheduled Jobs
 
 <img src="https://lh3.googleusercontent.com/pw/AM-JKLWPvuuteO-Y0pii9Ng7Lx-52zuh6rxYeH7BtuZPOBfuehG2bjzYJdCQW0KtFc-MB1D53McaSu18DFHcGLVeWqzCz_6wscihUwj2ixodakRsPGdZOlOfPIeELPYJ9ppd34iDQEOlLy2aFpjBEKaxe1ukVA=w908-h442-no?authuser=0" width="400px">
 
@@ -98,6 +104,10 @@ from a long history of experience, where shortcuts have been taken... caused
 a lot of pain... and lessons have been learn't.
 
 Ideas are loosly pulled from the 12 factor app: https://12factor.net/
+
+ultimately we have two objectives with this training:
+* maintainable service
+* Share best practices around how to structure automations
 
 Its a foundation that can be built on.
 

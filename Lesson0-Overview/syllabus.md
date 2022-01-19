@@ -1,3 +1,9 @@
+# Syllabus
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLWboMhNfRKNuWp7MY1lQIRrunqa-rpaNnJFqezp0PD-2qKnblIaSWpoy3TGyAf77BRoPhxDMfJqm7TJlSYACChax1bDKGajhER_9AYWNJax-IFRBYtUXNIhn0asAX9fkcQheZQYZn5Xi1_tm7z-d1yAYw=w1168-h569-no?authuser=0" width="600px">
+
+---vertical---
+
 # Pre-requisites
 
 * Some familiarity with python programming language, have used it before
