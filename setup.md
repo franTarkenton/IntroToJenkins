@@ -25,3 +25,4 @@ Make edits to index.html for your presentation.
 
 then view at: [http://localhost:8000]()
 
+and start development of presentation!

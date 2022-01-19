@@ -24,6 +24,7 @@ https://github.com/franTarkenton/IntroToJenkins/tree/main/python/Lesson1-Secrets
 
 * password
 * api key / token
+* *something that gives you access to a system*
 
 ### Configurations:
 
@@ -112,7 +113,7 @@ https://code.visualstudio.com/docs/python/environments#_environment-variables
 
 ---vertical---
 
-## Installing dotenv - Windows
+## Installing dotenv on Windows
 
 *We will cover this topic in much more detail in subsequent lessons.  For now just copy and paste if you are wanting to follow along with code* <!-- .element: class="smallersize2left" -->
 
@@ -138,7 +139,7 @@ option as well
 
 ---vertical---
 
-## Installing dotenv - Proper OS
+## Installing dotenv on a Proper OS
 
 ```
 # install virtualenv globally
@@ -266,3 +267,6 @@ modules in python that are even more flexible some of those include:
 
 note: Will try to carve some time away to figure out how vault could be used
 to host secrets for GIS scripts.
+
+Great video that provides a great / understandable overview of vault: https://www.youtube.com/watch?v=VYfl-DpZ5wM
+

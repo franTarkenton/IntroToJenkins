@@ -89,8 +89,6 @@ For branching will discuss best practices using git flow vs github flow.
 ### Lesson 4. Jenkins
 ___
 
-Now that all the pieces are together this lesson is an overview of how to get
-code running on jenkins using a pipeline build
 
 * overview of jenkins ui
 * demo of freestyle project
@@ -98,12 +96,16 @@ code running on jenkins using a pipeline build
 * using pipelines
 * Entering secrets into Jenkins Job
 
+Note: Now that we have covered secrets, git, and dependency management
+we know enough to take a job and deploy it to jenkins.  This lesson will
+focus on the pipeline build, vs freestyle project.
+
 ---vertical---
 
-### Lesson 5. Logging
+### Lesson 5. Logging (tentative)
 ___
 
-Stop using print statements is the primary focus of this lesson.
+**Stop using `print` statements**<!-- .element class="smallersize2left" -->
 
 * python logging module overview of components that make it up
 * logging config files
@@ -112,7 +114,7 @@ Stop using print statements is the primary focus of this lesson.
 
 ---vertical---
 
-### Lesson 6. tools (Code Linting / Formatting / QA)
+### Lesson 6. tools - Code Linting / Formatting / QA (tentative)
 ___
 
 * introduction to some commonly used linting tools (flake8, pylint)

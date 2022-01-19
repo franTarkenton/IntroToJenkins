@@ -23,6 +23,7 @@ scheduled jobs should be created and deployed.
 
 * Jenkins Master node
 * Connects to a couple GIS Terminal Server boxes
+* Jenkins configuration allows for running jobs with a schedule
 
 <img src="https://dyltqmyl993wv.cloudfront.net/assets/stacks/jenkins/img/jenkins-stack-110x117.png" width="200px">
 <img src="https://i.redd.it/tm9debwp5f301.png" width="200px">
@@ -32,32 +33,40 @@ scheduled jobs should be created and deployed.
 ---vertical---
 
 
-# The People
+# The People...
 
-<img src="https://legendsrevealed.com/entertainment/wp-content/uploads/2016/10/scottstartrek1-515x386.jpg" width="200px" class="center">
+*Things will be easier once the machines take over*<!-- .element class="smallersize2left" -->
 
-<img src="https://www.esri.com/arcgis-blog/wp-content/uploads/2019/11/Garry_emoji_globe-1-213x200.png" width="200px" class="center">
+<img src="https://legendsrevealed.com/entertainment/wp-content/uploads/2016/10/scottstartrek1-515x386.jpg" width="225px" class="center">
 
-<img src="https://miro.medium.com/max/1400/1*-Ga24xFA0jHOXvKasE0q2w.png" width="200px" class="center">
+<img src="https://miro.medium.com/max/1140/0*gLwoK2E-X1gIgocm" width="300px" class="center">
 
-* Scott / Harry - needs to keep servers running
-* Data Analysts / GIS Analysts / Other - want jobs running on a schedule
+
+* Mr. Scott - Lots of servers to manage - no snowflakes
+* Data Analysts / GIS Analysts / Other (kirk / spock) - want their code running on a schedule
 * Common Interest / what we all want:
     * Reliability
     * Maintainability
+    * Scalability
     * Recoverability from Failure
 
-note: We want to be able to add / remove / replace servers that are
+Note: We want to be able to add / remove / replace servers that are
 attached to the jenkins service without requiring notification.  When
 this happens we want users of scheduled jobs to be unaffected by these
 changes.
 
----vertical---
+For the system to work the code needs to be created and deployed in a way
+that allows Scott/Harry to:
+* add new servers
+* swap out servers
 
+With minimum of effort
+
+---vertical---
 
 ## How do we get there?
 
-This training will hopefully be a start!
+This training will hopefully help get us there!
 
 * Don't embed secrets in your code
 * Maintain code in Source Code Repository
@@ -76,7 +85,6 @@ This training will hopefully be a start!
 * Things are already too complex
 * I'm busy, don't have time for this nonsense!
 * There has to be an easier way.
-
 
 Note: If you write code, I consider you a programmer.  We are all at
 different levels.  If we approach problems together I believe we can
