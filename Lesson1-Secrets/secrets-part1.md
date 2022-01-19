@@ -6,6 +6,8 @@
 
 ## Code for this Lesson
 
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLVDxGSgdB8_1dBjYy-DBaBC07wrl0o0WRRjmpfrtzvvkIpVfdROA22rJfteR60g7eEpllD_r839k2fzXW97TcjXflQ5dza6oq4iQjrNX_Z2pxJ0P80lmpAv-Fz5BIHiZVeyZ1JJwP73mGAlIVxsYSGeeQ=w1168-h569-no?authuser=0" width="450px">
+
 * Repository with presentation and code:
 https://github.com/franTarkenton/IntroToJenkins
 
@@ -40,6 +42,8 @@ https://github.com/franTarkenton/IntroToJenkins/tree/main/python/Lesson1-Secrets
 
 
 ## Using Environment Variables
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLUUWb8HIplUIUo59pXNmv2HzyKeeQPR2SHfbXtESibZ6CCrcRjcQSHiqevzm1l7bc1by7pG5__xJpJO5XVVRVzIpk9EjFPN7pAQK0uSoY3WKB1EeSthmAmnRLC-IW3SHR2hvmZqyLh_A5LCA5WUcMhapA=w1168-h569-no?authuser=0" width="450px">
 
 #### Setting Environment Variables in Windows
 
@@ -92,6 +96,8 @@ example code:<!-- .element: class="smallersize2" -->
 ---vertical---
 
 ## .env File Format
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLWjZCTy5zQEMrCRPEZ24fwubXSZPszve3O8kmv4m4Sn7tQqE24cAdB691EyKsr-1cZTeqb6Ah-wIMqO-oIbDxtx2AdDaJQ9JAOTi2cXnhsieVf90ajOjY0zh5JRM4EIWS_dJfPQsRjuvkG1fvW666yFNQ=w1168-h569-no?authuser=0" width="500px">
 
 Example:
 ```
@@ -228,6 +234,8 @@ code can be found at: ./python/Lesson1-Secrets/constants.py <!-- .element class=
 ---vertical---
 
 ## Using Constants
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLVI_CX_I0jt4faO15qQCQmwNf1uqPAMmCtIgHVkex7Ahp2fMF_ngSh4eqJrJgFUGaJLOROTcYZHUz8XR4SBpkIFsOZtdCzizeGCEvPgMHDPHQaHRYKUyDr7Ze1SUBGGKmh08J60FcOLDuAlpYZc9_JgJg=w1168-h396-no?authuser=0" width="700px">
 
 ```python
 import constants
