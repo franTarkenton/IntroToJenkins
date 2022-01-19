@@ -1,4 +1,5 @@
 {
     "editor.rulers": [80,120],
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "python.defaultInterpreterPath": "/home/kjnether/proj/jenkinsTraining_newrepo/venv/bin/python3"
 }

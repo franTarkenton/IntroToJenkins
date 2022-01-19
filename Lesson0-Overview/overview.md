@@ -10,10 +10,4 @@
 
 Note: slide tries to identify the purpose of the training
 
----vertical---
 
-## Why?
-
-
-
-## Slide 3
