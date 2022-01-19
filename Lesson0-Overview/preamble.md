@@ -33,7 +33,7 @@ scheduled jobs should be created and deployed.
 ---vertical---
 
 
-# The People...
+# The Issue...
 
 *Things will be easier once the machines take over*<!-- .element class="smallersize2left" -->
 
