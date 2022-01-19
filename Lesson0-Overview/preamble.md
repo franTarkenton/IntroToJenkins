@@ -91,4 +91,5 @@ taken in the course will save you time in the long run.
 
 * This course is going to use python for its demos.
 * Concepts covered using python should be transferable to other languages
+* Editor of choice for course is vscode
 

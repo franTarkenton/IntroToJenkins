@@ -4,6 +4,12 @@
 
 ---vertical---
 
+## Code for this Lesson
+
+* Repository with presentation and code:
+https://github.com/franTarkenton/IntroToJenkins
+
+* python code in:
 
 <!-- .slide: class="left" element="-->
 ## Secrets vs Config's
@@ -64,13 +70,28 @@ Bill's password is password123!
 * Manually populating environment variables every time you start a new shell can be cumbersome during development
 * Using .env files is a common way of storing environment variables during development
 
-** Caution **
+**CAUTION**: <!-- .element: class="red" -->
 * env files contain things you don't want to share
 * store them in a separate directory from your code
-* **OR**
+
+**OR**
+
 * be **CERTAIN** you have added .env to your .gitignore file
 
+---vertical---
 
+### .env File Format
+
+Example:
+```
+BILLS_PASSWORD=password123!
+API_KEY=password123!
+#COMMENTED_OUT_VARIABLE=lines that start with # are considered commented out
+```
+
+---vertical---
+
+### Populate environment variables using .env files
 
 
 
