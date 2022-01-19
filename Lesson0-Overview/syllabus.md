@@ -1,9 +1,10 @@
-# ----------------- *Draft* --------------------------
+# Pre-requisites
 
-<br><br>
-# Introduction
+* Some familiarity with python programming language, have used it before
+* Have a code base / script that user would like to integrate into Jenkins
+* Time / availability to participate fully.
 
-This document describes the concepts that would be included in a proposed
+Note: This document describes the concepts that would be included in a proposed
 jenkins / cron best practices training course.  The intent of the training is
 to take some existing code that users would like to have running in an automated
 process, and after the training is complete that code will be polished and
@@ -20,15 +21,19 @@ expected to take approximately 45 minutes to an hour  to cover.  The remaining
 time will be spent applying the concepts covered in the lesson to a code base
 that the students will bring to the course.
 
-# Pre-requisites
 
-* Some familiarity with python programming language, have used it before
-* Have a code base / script that user would like to integrate into Jenkins
-* Time / availability to participate fully.
+---vertical---
 
-# Topics
+# Summary of Planned Lessons
 
-## Source Code Repository
+* Secrets
+* Dependency Management
+* Introduction to git / vscode
+* Jenkins
+* Logging - (Tentative)
+* Tools - (Tentative)
+
+---vertical---
 
 ### **Lesson 1. Secrets Best Practices**
 ___
@@ -42,6 +47,8 @@ to your code
 * dotenv python module
 * Using secrets with a constants file
 
+---vertical---
+
 ### Lesson 2. Dependency Management
 ___
 
@@ -52,30 +59,32 @@ ___
 * other approaches pipenv, poetry, conda
 * development dependencies vs app / script dependencies
 
+---vertical---
+
 ### Lesson 3. Introduction to git / vscode
 ___
 
-* quick overview of vscode
-    * useful keyboard shortcuts
-    * configuration
+* overview of vscode (kb shortcuts / config / git integration / python )
 
-* What is git
-* What is github
+* What is git vs github
 * Cloning a repository
 * Remote vs Local repositories
-* adding to repository
-    * staging
-    * committing
-    * pushing
-* branches
+* adding to repository (staging / committing / pushing)
+* branches and best practices
 * forks
-* best practices for development
+
+
+Note: thinking all lessons will cover how to do git operations using vs code gui
+as well as with git command line
+
+For branching will discuss best practices using git flow vs github flow.
     * main - always prod ready
     * dev - integration branch
     * feature branches
 
-*Will demonstrate all the above concepts using the git command line as well as
-the equivalent functionality in vscode.  Thinking this lesson will be a longer one.  Schedule **3 hours**.*
+**Schedule 3 hours for this lesson**
+
+---vertical---
 
 ### Lesson 4. Jenkins
 ___
@@ -87,6 +96,9 @@ code running on jenkins using a pipeline build
 * demo of freestyle project
 * introduction to jenkins pipelines
 * using pipelines
+* Entering secrets into Jenkins Job
+
+---vertical---
 
 ### Lesson 5. Logging
 ___
@@ -98,6 +110,7 @@ Stop using print statements is the primary focus of this lesson.
 * Other ways to configure logging
 * playing with log levels
 
+---vertical---
 
 ### Lesson 6. tools (Code Linting / Formatting / QA)
 ___
@@ -107,4 +120,3 @@ ___
 * Code formatting tools (black)
 * declaring dev tools used / expected
 * Code analysis sonarcloud / radon / xenon
-
