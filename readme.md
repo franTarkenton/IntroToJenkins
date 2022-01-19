@@ -2,8 +2,7 @@
 
 <img src="https://lh3.googleusercontent.com/pw/AM-JKLWZtAp61uDthyr0U6pWcSdg9PqfHbERpmuhD2xWOum87AlWEgjauKGxAMbpLTpvb34I_RLxfGEjCO1HPKyHoPXreljlJiYGZZHMlRVhTPgEQoJtrlwQx7nU0R79cxv5E6EhVUJG2QmEluIXUmExYKSNsA=w883-h430-no?authuser=0" width="600px">
 
-Rendered version of this repo is available at:
-[https://frantarkenton.github.io/IntroToJenkins/]()
+## Rendered version of this repo is available at: [https://frantarkenton.github.io/IntroToJenkins/]()
 
 This repository will contain all the lessons / code that
 have been used to deliver the Jenkins training to GIS /
