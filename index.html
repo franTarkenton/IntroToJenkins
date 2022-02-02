@@ -35,6 +35,11 @@
 	.smallersize1 {
 		font-size: .8em;
 	}
+	.smallersize1left {
+		text-align: left;
+		font-size: .8em;
+		margin-left: 40px;
+	}
 	.smallersize2 {
 		font-size: .65em;
 	}
@@ -43,7 +48,16 @@
 		font-size: .65em;
 		margin-left: 40px;
 	}
-
+	.scrollable-slide {
+		bottom: 0px;
+		overflow-y: auto  !important;
+		overflow-x: hidden !important;
+		height: 700px;
+	}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	  }
 
 	.reveal h1 { font-size: 1.85em; }
 	.reveal ul { font-size: 0.9em; }
@@ -55,6 +69,7 @@
 	<div class="reveal">
 		<div class="slides">
 			<section
+			    class="scrollable-slide"
 				id="start.md"
 				data-markdown="Lesson0-Overview/start.md"
 				data-separator="^\n\n\n"
@@ -82,6 +97,15 @@
 				id="secrets-part1.md"
 				class="secrets-part1_cls"
 				data-markdown="Lesson1-Secrets/secrets-part1.md"
+				data-separator="^\n\n\n"
+				data-separator-vertical="^\n\---vertical---\n\n"
+				data-separator-notes="^Note:"
+				data-charset="iso-8859-15">
+			></section>
+			<section
+				id="dependencies-part1.md"
+				class="secrets-part1_cls"
+				data-markdown="Lesson2-Dependencies/dependencies-part1.md"
 				data-separator="^\n\n\n"
 				data-separator-vertical="^\n\---vertical---\n\n"
 				data-separator-notes="^Note:"
