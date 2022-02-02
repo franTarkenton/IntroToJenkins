@@ -1,4 +1,4 @@
 copy .env-rename .env
-python -m venv venv
-.\venv\Scripts\activate
+python -m venv venv-pro
+.\venv-pro\Scripts\activate
 pip install -r requirements.txt
