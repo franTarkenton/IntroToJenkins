@@ -19,7 +19,7 @@ Make sure **node_modules** is included in the .gitignore file
 
 Make edits to index.html for your presentation.
 
-### test / view
+### test / view / development
 
 ```npm start```
 
