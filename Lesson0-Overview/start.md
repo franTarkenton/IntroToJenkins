@@ -7,6 +7,6 @@
 * [Preamble](#/preamble.md)
 * [Syllabus / review](#/syllabus.md)
 * [Lesson 1 - Secrets](#/secrets-part1.md)
-* [Lesson 2 - TBD]()
+* [Lesson 2 - Dependencies](#/dependencies-part1.md)
 * [Lesson 3 - TBD]()
 
