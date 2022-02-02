@@ -25,6 +25,29 @@ https://github.com/franTarkenton/IntroToJenkins/tree/main/python/Lesson2-Depende
 
 ---vertical---
 
+<!-- .element: class="smallersize1" -->
+
+### Lesson Overview
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLUd-ZWzGR7-eKQhhUaoX04l-bAkYB0ySQPAZNS6a6CLBkq4_6EoXe8NH-cyVZMdNpFpEcvAK9hf8-4lTPGReT350taF192KADqHXYXaUoie1iVRqQQ69W3WIrjfI-pYUehH0TQIvY3m6JB8yySH-fJDtQ=w957-h275-no?authuser=0"
+width="500px">
+
+* The bigger picture: how dependencies relate to jenkins
+* Dependencies - Definition (conceptual)
+* Environment isolation (conceptual)
+* Tooling (technical)
+* Hacking ESRI's conda install (technical)
+* Putting it together with a demo  (technical)
+
+note:
+* going to start how dependencies fit into what it is we are trying to accomplish.
+* Discuss dependencies at a high level, different ways  we can manage them
+* Gradually work from concept to code
+* Initially will show code in slides
+* Finish up with a start to finish problem
+
+---vertical---
+
 ### Dependencies: how they related to Scheduled Jobs
 
 #### Objective: Best Practices for Jenkins / Scheduled Jobs
@@ -64,26 +87,6 @@ agent runs under
 
 ---vertical---
 
-<!-- .element: class="smallersize1" -->
-
-### Lesson Overview
-
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLUd-ZWzGR7-eKQhhUaoX04l-bAkYB0ySQPAZNS6a6CLBkq4_6EoXe8NH-cyVZMdNpFpEcvAK9hf8-4lTPGReT350taF192KADqHXYXaUoie1iVRqQQ69W3WIrjfI-pYUehH0TQIvY3m6JB8yySH-fJDtQ=w957-h275-no?authuser=0"
-width="500px">
-
-* Dependencies - Definition
-* Environment isolation
-* Tooling / Technical - How to
-* Hacking ESRI's conda install
-* Putting it together with a demo
-
-note:
-* gonna start with high level concepts
-* Gradually work from concept to code
-* Initially will show code in slides
-* Finish up with a start to finish problem
-
----vertical---
 
 ## Dependencies
 
