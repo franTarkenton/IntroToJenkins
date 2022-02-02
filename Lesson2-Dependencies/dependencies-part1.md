@@ -3,8 +3,8 @@
 
 ### Handling Dependencies with Python
 
-<img src="https://lh3.googleusercontent.com/pw/AM-JKLVneMDEfJ1Mzb0Up1tJ5bexdYvdzyUv0fj34tBiaZj2JRfqKjcFRhNDq7T2W6zZ7nwfm1Ciq4zbwI3PWS0F9v1VGs82SZppDlXHdSRr7ZE6WshnLMEPAwKIz4adSUkvYewXwS6GYpwTJLZPx7KxrcBg2w=w957-h466-no?authuser=0"
-width="600px">
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLUse9RcKF_KgC1iNKiN0_1r5em9ro0eqlVu5K-cw83_IElFjwTf24aiMRjGsqWxgCyG9x7cuT1XcBEsxHuf8_f1Tz8jsBOx4lC0EriEHwMiAbStwDQxJZuKhO3PZaqfP937sZCY5Pfv1CsiA37OeNbH-g=w957-h718-no?authuser=0"
+width="500px">
 
 ---vertical---
 
@@ -22,6 +22,44 @@ https://github.com/franTarkenton/IntroToJenkins/tree/main/python/Lesson2-Depende
 
 * or if you have cloned / copied the repo...<!-- .element: class="smallersize1" -->
 `./python/Lesson2-Dependencies<!-- .element: class="smallersize1" -->
+
+---vertical---
+
+### Dependencies: how they related to Scheduled Jobs
+
+#### Objective: Best Practices for Jenkins / Scheduled Jobs
+
+  * ~~Separation of secrets~~ - **Done**
+  * Separation of dependencies - **Today**
+  * Code in source code repository - **Upcomming**
+  * Putting it together with Jenkins - **Upcomming**
+
+*Ultimately scheduled jobs run in disposable environments, with clearly defined build steps*
+
+---vertical---
+
+## High level flow of Jenkins job trigger
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLU0jxQH6bpHnwIhztUY6g07R0DyUEN-m2jTWGxXJXczz4Ks7N8jPaGHh1_z_SGCDvMVV0Jv2oCNDrFxYplVI8nqg8j6-1hhVq5uVvsuz3IwZOLHtxGvI9hOQhUzUAM-13xT0JFxj23PU-BO5ykkTDR9SQ=w261-h175-no?authuser=0" width="500px">
+
+note:
+
+Jenkins master - coordinates the running of jobs, detects that its time to run a job and then sends a bundle of information about a job over to a jenkins agent.
+
+---vertical---
+
+### Hieroglyph of Desired Jenkins Job Execution
+
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLUWWQ9Sq7GkDSdDalIyoC61saIXn9EXDgk0v-PDioeF9qZIxGyG7d2e3Dp2VHo7smX3jLg_fFmNrblflWVLAcEcLF0G3mwjqQJEzq2Slo-rPVEI7Iu-crlZ-tooUNVfdIUHvUS5k5v5pmoNG6PFxpXuzA=w414-h401-no?authuser=0" width="500px">
+
+note:
+
+Shows what happens on the agent.  The rectangle represents the actual jenkins job, and the ideal flow of what components should be defined for the job.
+
+Recognize that object storage flow is not something that is currently in practice.  The advantage of using object storage for persisted data over
+file systems is its much easier to manage access with api keys to object
+storage vs cumulatively adding permissions to the service account that the
+agent runs under
 
 
 ---vertical---

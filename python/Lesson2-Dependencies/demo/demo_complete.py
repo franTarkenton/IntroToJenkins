@@ -10,9 +10,9 @@ ag/cap:
     * https://catalogue.data.gov.bc.ca/dataset/agriculture-capability-mapping
     * http://www.env.gov.bc.ca/esd/distdata/ecosystems/Soil_Data/AgricultureCapability/AgCap_Map_GDB_20150923.zip
 
-thlb:
-   * https://catalogue.data.gov.bc.ca/dataset/provincial-timber-harvesting-land-base-thlb-by-timber-supply-area-tsa-
-   * https://www.for.gov.bc.ca/ftp/HTS/external/!publish/THLB/tsa_thlb.zip
+soils data:
+   * https://catalogue.data.gov.bc.ca/dataset/soil-mapping-data-packages
+   * https://www.env.gov.bc.ca/esd/distdata/ecosystems/Soil_Data/Soil_Data_Pkgs/SOIL_Map_GDB_20160331.zip
 
 """
 import os.path
